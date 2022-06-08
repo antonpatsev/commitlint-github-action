@@ -1,1 +1,1 @@
-foo: some message
+fix(github): dsgdsg (DEVOPS-12)
