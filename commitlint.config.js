@@ -26,7 +26,7 @@ module.exports = {
   parserPreset: {
     parserOpts: {
       headerPattern: /^(feat|fix)\((cicd|git|github|gke|iam|tf)\):\s.*(DEVOPS-[0-9]+)/,
-//      headerCorrespondence: ['type', 'scope', 'ticket', 'subject']
+      headerCorrespondence: ['type', 'scope', 'subject']
 //      headerCorrespondence: ['subject']
       },
     },
