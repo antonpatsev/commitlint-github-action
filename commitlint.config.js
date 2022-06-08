@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional', "@commitlint/parse"],
+  extends: ['@commitlint/config-conventional', "@commitlint/parse", "@commitlint/conventional-commits-parser"],
   rules: {
     "scope-enum": [2, "always", [
       "cicd",
@@ -10,8 +10,10 @@ module.exports = {
       "tf"
     ]],
   },
+  parserPreset: {
   parserOpts: {
     headerPattern: /^(feat|fix)\((cicd|git|github|gke|iam|tf)\):\s.*(DEVOPS-[0-9]+)/,
     headerCorrespondence: ['type', 'scope', 'ticket', 'subject'],
+    },
   },
 };
