@@ -1,1 +1,1 @@
-# commitlint-github-action
+test
