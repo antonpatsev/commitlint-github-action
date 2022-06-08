@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional', "@commitlint/parse", "@commitlint/conventional-commits-parser"],
+  extends: ['@commitlint/config-conventional', "@commitlint/parse"],
   rules: {
     "scope-enum": [2, "always", [
       "cicd",
