@@ -1,1 +1,1 @@
-feat(fff): fghfg (DEVOPS-65)
+feat(fff): headerPattern
