@@ -1,1 +1,1 @@
-fegat(fff): headerPattern
+fix(gke): ggg (DEVOPS-2657)
