@@ -1,1 +1,1 @@
-fegat(githgub): jjjj (DEVOPS-55)
+feat(fff): fghfg (DEVOPS-65)
