@@ -1,1 +1,1 @@
-fix(gke): jjjj (DEVOPS-2657)
+fix(gke): headerCorrespondence: ['subject']
